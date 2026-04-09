@@ -17,7 +17,7 @@ namespace ConsoleApp4
                 Position += move;
             }
         }
-        ScoutModule (Coord position, int fuel) : base (position, fuel)
+        public ScoutModule (Coord position, int fuel) : base (position, fuel)
         {
 
         }

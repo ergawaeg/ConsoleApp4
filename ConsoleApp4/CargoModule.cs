@@ -8,7 +8,7 @@ namespace ConsoleApp4
 {
     public sealed class CargoModule : AbstractModule
     {
-        CargoModule(Coord position, int fuel) : base(position, fuel)
+        public CargoModule(Coord position, int fuel) : base(position, fuel)
         {
 
         }

@@ -17,10 +17,13 @@ namespace ConsoleApp4
                 {
                     foreach (var j in i)
                     {
-                        int exFuel = j.getFuel();
-                        j.Act();
-                        totalFuelConsumed += exFuel - j.getFuel();
-                        processedCount++;
+                        if (j != null)
+                        {
+                            int exFuel = j.getFuel();
+                            j.Act();
+                            totalFuelConsumed += exFuel - j.getFuel();
+                            processedCount++;
+                        }
                     }
                 }
             }

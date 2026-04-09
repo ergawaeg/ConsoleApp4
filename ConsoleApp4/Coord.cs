@@ -20,9 +20,9 @@ namespace ConsoleApp4
         {
             return new Coord(a.X - b.X, a.Y - b.Y);
         }
-        public static Coord operator *(Coord a, Coord b)
+        public static Coord operator *(Coord a, int b)
         {
-            return new Coord(a.X * b.X, a.Y * b.Y);
+            return new Coord(a.X * b, a.Y * b);
         }
         public static bool operator ==(Coord a, Coord b)
         {

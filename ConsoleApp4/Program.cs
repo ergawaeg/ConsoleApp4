@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ConsoleApp4;
+using System;
 
 namespace Sp
 {
@@ -6,7 +7,7 @@ namespace Sp
     {
         static void Main(string[] args)
         {
-
+            TaskUnitTests.Run();
         }
     }
 }
